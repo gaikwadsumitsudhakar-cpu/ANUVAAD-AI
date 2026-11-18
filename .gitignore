@@ -1,0 +1,25 @@
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+
+# Large model files
+models/
+*.safetensors
+*.bin
+*.pt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
